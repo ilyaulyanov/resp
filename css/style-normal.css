@@ -36,7 +36,12 @@
 		.wrapper.style4 {
 			padding: 3em;
 		}
-
+#header nav ul li {
+    display: inline-block;
+    margin: 0;
+  width:30%;
+  font-size:1em;
+  }
 /* Header */
 
 	#header nav ul li {

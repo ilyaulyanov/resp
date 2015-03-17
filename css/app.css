@@ -16,19 +16,37 @@ background-color: #1976D2;
 		height:30rem;
 		padding-top:10rem;
 	}
+#banner .inner p small { font-size:75%; letter-spacing: 0px; line-height: 1;}
+  #banner .inner header h1 {
+  border-bottom: solid 2px;
+  border-top: solid 2px;
+  font-size: 2.5em;
+  font-weight: 900;
+  letter-spacing: 0.2em;
+  margin: 0;
+  padding-left: 0.05em;
+  position: relative;
+  text-transform: uppercase;}
 #banner .inner{
 	background:#f9f9f9;
 	color:#333;
 	font-weight:400;	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
 }
-
+@media only screen and (max-width: 980px){
+   #calc > .wrapper {padding:2em 5em;}
+   #userdata div.form-canvas{
+      padding: 2em 5em;
+      }
+      .group label{font-size:18px;}
+  
+}
 @media (max-width:736px){
  .group label{font-size:14px;}
   #banner{
     padding-top:0em;
-    height:50vh;
+    height:60vh;
   }
-  #banner .inner{padding:3em 0em; height:50vh;}
+  #banner .inner{padding:3em 0em; height:60vh;}
   .slider-slide > div > a{min-width: 100%;}
    #calc > .wrapper {padding:2em 0em;
     }
@@ -112,13 +130,7 @@ display: block;}
 
 /* Calculator ================================== */
 
-@media (min-width: 737px){
-   #calc > .wrapper {padding:2em 5em;}
-   #userdata div.form-canvas{
-      padding: 2em 5em;
-      }
-      .group label{font-size:18px;}
-}
+
 #calc { color: #333;
 padding: 5em;
 text-align: center; padding:0rem;}
@@ -167,6 +179,7 @@ box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
 input[type="submit"]{
 	min-width:14em;
 }
+#contact>header>p{margin:0;font-weight: 400;}
 
 ::-webkit-input-placeholder { /* WebKit browsers */
     color:    #333;
@@ -429,7 +442,7 @@ height: 50px;
       color: #fff;
     }
 
-#footer{background:#4285f4; color:#fff;}
+#footer{background:#4285f4; color:#fff;  padding: 5em;}
 #footer .icons a.icon.circle { border-radius: 0;}
 
 #mc_embed_signup input.email:focus {

@@ -53,6 +53,13 @@
 		.wrapper.style4 {
 			padding: 2.5em;
 		}
+/* Nav menu */
+#header nav ul li {
+  display: inline-block;
+  margin: 0;
+width:30%;
+font-size:1em;
+}
 
 /* Banner */
 
@@ -72,3 +79,4 @@
 		background-size: 15em, 15em, auto, cover;
 		padding: 3em;
 	}
+
